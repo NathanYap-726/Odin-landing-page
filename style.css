@@ -1,8 +1,12 @@
 /* {
    outline:2px solid red;
 }
-
 */
+
+a{
+    color:#e5e7eb;
+}
+
 .upper-header-container{
     display:flex;
     justify-content: space-between;
@@ -19,6 +23,16 @@
     font-size: 18px;
     color: #e5e7eb;
 }
-a{
-    color:#e5e7eb;
+
+.middle-header-container  {
+    display:flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    flex-direction: column;
+}
+
+#one .middle-header-text li  {
+    font-size: 48px;
+    font-weight: bolder;
+    
 }
