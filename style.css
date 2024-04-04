@@ -1,7 +1,7 @@
-/* {
+* {
    outline:2px solid red;
 }
-*/
+
 
 a{
     color:#e5e7eb;
@@ -20,19 +20,28 @@ a{
     display:inline-flex;
     justify-content: space-evenly;
     padding-right: 200px;
-    font-size: 18px;
-    color: #e5e7eb;
+  
 }
 
 .middle-header-container  {
     display:flex;
-    justify-content: space-around;
-    background-color: #1f2937;
     flex-direction: column;
-}
-
-#one .middle-header-text li  {
-    font-size: 48px;
-    font-weight: bolder;
+    justify-content:center;
+    background-color: #1f2937;
+    align-items: center;
     
 }
+
+.header-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9fAf8;
+}
+
+.header-para-text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#cat-one{
+    padding-left: 100px;
